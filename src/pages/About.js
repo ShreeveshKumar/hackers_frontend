@@ -13,8 +13,8 @@ const About = () => {
     <div className=" bg-black pt-10 overflow-hidden">
       <div className="flex flex-wrap justify-around ">
 
-        <div className="">
-          <img src={AboutPic} alt="foccu" className="w-full" />
+        <div className="w-5/5  overflow-hidden h-full rounded-md">
+          <img src="./hackerskiet.jpg" alt="foccu" className=" h-96 w-full" />
         </div>
 
 
