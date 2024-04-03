@@ -14,7 +14,7 @@ const About = () => {
       <div className="flex flex-wrap justify-around ">
 
         <div className="w-5/5  overflow-hidden h-full rounded-md">
-          <img src="./hackerskiet.jpg" alt="foccu" className=" h-96 w-full" />
+          <img src="./hackerskiet2.jpg" alt="foccu" className=" h-96 w-full" />
         </div>
 
 
