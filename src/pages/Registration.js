@@ -91,7 +91,7 @@ const Registration = () => {
         phoneError: phoneError,
       });
 
-      fetch("https://backend-hackersmeetup.onrender.com/register", {
+      fetch("https://hackersmeetup-backend.onrender.com/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
