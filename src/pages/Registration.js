@@ -59,7 +59,7 @@ const Registration = () => {
 
     let isValid = true;
 
-    if (name.length < 6) {
+    if (name.length < 3) {
       setNameError("Name should be at least 6 characters long");
       isValid = false;
     }
@@ -151,7 +151,7 @@ const Registration = () => {
               className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 "
               htmlFor="name"
             >
-              Name
+              Full Name
             </label>
             <input
               className="flex h-10 w-full rounded-md border border-black/30 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
