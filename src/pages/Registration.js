@@ -59,8 +59,8 @@ const Registration = () => {
 
     let isValid = true;
 
-    if (name.length < 3) {
-      setNameError("Name should be at least 6 characters long");
+    if (name.length < 2) {
+      setNameError("Name should be at least 3 characters long");
       isValid = false;
     }
 
